@@ -5,9 +5,11 @@ The function should return the total sum of all values in the array.
 Solve this using Array's `forEach()` method.
 
 Examples:
-
-
+console.log(sumForEach([4, 3, -1, 10])); // 16
+console.log(sumForEach([6, 7, 2])); // 15
+console.log(sumForEach([])); // 0
 */
+
 
 let sumForEach = function(arr) {
   let sum = 0;
@@ -17,10 +19,6 @@ let sumForEach = function(arr) {
   return sum;
 };
 
-
-console.log(sumForEach([4, 3, -1, 10])); // 16
-console.log(sumForEach([6, 7, 2])); // 15
-console.log(sumForEach([])); // 0
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
