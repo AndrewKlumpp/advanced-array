@@ -6,12 +6,12 @@ it should return `null`.
 Solve this using Array's `forEach()` method.
 
 Examples:
-
-console.log(avgVal([5, 10])); // 7.5
-console.log(avgVal([3, 7, 2, 1, 2])); // 3
-console.log(avgVal([])); // null
-
 */
+
+// console.log(avgVal([5, 10])); // 7.5
+// console.log(avgVal([3, 7, 2, 1, 2])); // 3
+// console.log(avgVal([])); // null
+
 
 let avgVal = function(arr) {
     // Your code here
